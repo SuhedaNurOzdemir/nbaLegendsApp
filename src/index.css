@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{ 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+  
+  body {
+  background-color: aliceblue;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+ 
+.card-container{ 
+  background-image:url("https://phantom-marca.unidadeditorial.es/76cf88488807f5e6fed43d4705c9859f/resize/828/f/jpg/assets/multimedia/imagenes/2022/02/02/16437899001758.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  min-width: 300px;  
+  
+  
+} 
+ 
+.player-card{ 
+  height: 400px;   
+  max-width: 280px; 
+  min-width: 230px;
+
+}  
+.player-card:hover {  
+  box-shadow: 5px 5px;
+} 
+ 
+.player-card:hover .logo{ 
+  transform: scale(0.95);
+}
+.logo{ 
+  height: 350px; 
+  transition: transform 0.2s;
 }
